@@ -8,8 +8,6 @@ spec:
   selector:
     app: nginx
     department: dev
-  type: ClusterIP
   ports:
   - protocol: TCP
-    port: 80
     targetPort: 8080
